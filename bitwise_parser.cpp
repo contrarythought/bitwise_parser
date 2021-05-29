@@ -21,7 +21,7 @@ Token_stream ts;
             |
             Primary & Number
     Number:
-        Integer, ASCII, (Unary)(Integer, ASCII)
+        Integer, ASCII, ~(Integer)
 */
 
 int number()
